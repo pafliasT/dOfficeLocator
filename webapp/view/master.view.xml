@@ -1,0 +1,14 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.demo.ZDemo_MasterDetail.controller.master"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Drinks List">
+				<List id="orders" items="{/drinks}" mode="SingleSelectMaster" selectionChange="onSelectionChange">
+					<items>
+						<StandardListItem title="{drinkName}" type="Active" press="onSelectionChange"/>
+					</items>
+				</List>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
