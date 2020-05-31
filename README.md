@@ -6,7 +6,7 @@ Create Custom Split-App or Master Detail in Fiori.:relaxed:
 
 ## SCN Blogs
 
-[Simple SCN Bot in 10 lines using Python](https://blogs.sap.com/2019/08/25/simple-scn-bot-in-10-lines-using-python/)
+[Split-Screen In Fiori Made Easy!](https://blogs.sap.com/2020/05/31/split-screen-in-fiori-made-easy/)
 
 ### IDE: SAP Web IDE(Cloud)
 
