@@ -1,0 +1,46 @@
+{
+	"locations": [
+		{
+			"locId": 0,
+			"locName": "DACC 💓",
+			"locDesc": "Deloitte Alexander Competence Center ",
+			"locLat": 40.573493620199734,
+			"locLng": 22.997747531410702 
+		},
+		{
+			"locId": 1,
+			"locName": "Athens",
+			"locDesc": "Deloitte Business Solutions Athens ",
+			"locLat": 38.039296051151304,
+			"locLng": 23.803750195525726
+		},
+		{
+			"locId": 2,
+			"locName": "Patra",
+			"locDesc": "Patra's Hub ",
+			"locLat": 38.251532795366664, 
+			"locLng": 21.741463541851672
+		},
+		{
+			"locId": 3,
+			"locName": "Crete",
+			"locDesc": "Crete Tech Park ",
+			"locLat": 35.33209311391281, 
+			"locLng": 25.138134972646192
+		},
+		{
+			"locId": 4,
+			"locName": "Rome",
+			"locDesc": "Rome Innovation District ",
+			"locLat": 41.9434330006838,
+			"locLng": 12.448257168338753
+		},
+		{
+			"locId": 5,
+			"locName": "Naples",
+			"locDesc": "Naples Tech Hub ",
+			"locLat": 40.83376286298855,
+			"locLng": 14.231637338314915
+		}
+	]
+}

@@ -1,15 +1,27 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.demo.ZDemo_MasterDetail.controller.detail"
+<mvc:View xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="com.demo.ZDemo_MasterDetail.controller.detail"
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<App>
 		<pages>
-			<Page title="{drinkName}" navButtonPress="onNavBack" showNavButton="{device>/system/phone}">
+			<Page id="page"  title="Map" navButtonPress="onNavBack" showNavButton="{device>/system/phone}" titleAlignment="Center">
 				<content>
-					<List id="products" items="{products}" headerText="Products">
-						<items>
-							<StandardListItem title="{productName}" type="Active" press="onSelectionChange"/>
-						</items>
-					</List>
+					<html:div id="map" class="map" />
 				</content>
+				<footer>
+					<Bar>
+						<contentLeft>
+							<Button text="Start Maps on DACC 💓 " press="startMap" />
+							<Button text="Get User Geolocation" press="getLocation" />
+							<Select id="bob" forceSelection="false" selectedKey="roadmap" items="{
+							path: 'Terrains>/Terrains',
+							sorter: {path: 'Name'}
+							}" change="onTerrainChange">
+								<core:ListItem key="{Terrains>TerrainID}" text="{Terrains>Name}" />
+							</Select>
+						</contentLeft>
+					</Bar>
+				</footer>
 			</Page>
 		</pages>
 	</App>

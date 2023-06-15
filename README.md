@@ -8,8 +8,5 @@ Create Custom Split-App or Master Detail in Fiori.:relaxed:
 
 [Split-Screen In Fiori Made Easy!](https://blogs.sap.com/2020/05/31/split-screen-in-fiori-made-easy/)
 
-### IDE: SAP Web IDE(Cloud)
-
-
 Thanks,</br>
-Arun
+

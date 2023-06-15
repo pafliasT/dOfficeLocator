@@ -62,13 +62,20 @@
 				"type": "sap.ui.model.json.JSONModel",
 				"settings": {},
 				"preload": false,
-				"uri": "model/drinks.json"
+				"uri": "model/locations.json"
 			}
 		},
 		"resources": {
 			"css": [
 				{
 					"uri": "css/style.css"
+				}
+			],
+			"js": [
+				{
+					"uri": "assets/maps.js",
+					"name": "maps.js",
+					"comment": "Google Maps API gets loaded here"
 				}
 			]
 		},
@@ -91,11 +98,11 @@
 					]
 				},
 				{
-					"name": "drinkDetails",
-					"pattern": "drinks/:drinkId:",
+					"name": "details",
+					"pattern": "drinks/:locId:",
 					"target": [
 						"master",
-						"drinkDetails"
+						"details"
 					]
 				}
 			],
@@ -108,7 +115,7 @@
 					"controlAggregation": "masterPages",
 					"viewLevel": 0
 				},
-				"drinkDetails": {
+				"details": {
 					"viewName": "detail",
 					"controlAggregation": "detailPages",
 					"viewLevel": 1
